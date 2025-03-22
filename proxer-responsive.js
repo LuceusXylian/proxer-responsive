@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         proxer-responsive.js
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @updateURL    https://raw.githubusercontent.com/LuceusXylian/proxer-responsive/main/proxer-responsive.js
 // @downloadURL  https://raw.githubusercontent.com/LuceusXylian/proxer-responsive/main/proxer-responsive.js
 // @description  Force proxer.me to be responsive
 // @author       Xylian
-// @match        https://proxer.me/*
+// @match        https://proxer.me/**
 // @grant 		 GM_setValue
 // @grant 		 GM_getValue
 // ==/UserScript==
@@ -39,6 +39,8 @@
 			#simple-navi, #simple-navi-wiki, #simple-navi li, ul#simple-navi-wiki li { position: unset; float: unset; }
 			ul#simple-navi li, ul#simple-navi-wiki li { float: unset; display: inline-block; margin: 2px; }
 			ul#simple-navi li a, ul#simple-navi-wiki li a { border-radius: 10px; }
+
+            .infocell { float: none; height: auto; }
 
 			#box-table-a tr { height: auto !important; }
             #box-table-a tr, #box-table-a td { background: #000; }
