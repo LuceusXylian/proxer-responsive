@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         proxer-responsive.js
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @updateURL    https://raw.githubusercontent.com/LuceusXylian/proxer-responsive/main/proxer-responsive.js
 // @downloadURL  https://raw.githubusercontent.com/LuceusXylian/proxer-responsive/main/proxer-responsive.js
 // @description  Force proxer.me to be responsive
@@ -21,6 +21,7 @@
 		`<style>
 			* { max-width: 100%; }
             html { width: 100vw; overflow: hidden auto; }
+            html, body { -moz-transform: scale(1); }
 
             #nav, #innerNav, #outerNav, #panel { position: unset !important; min-width: 300px; max-width: 100%; height: auto; clear: both; }
 			#rightNav { display: block; width: 100%; }
