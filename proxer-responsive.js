@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         proxer-responsive.js
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @updateURL    https://raw.githubusercontent.com/LuceusXylian/proxer-responsive/main/proxer-responsive.js
 // @downloadURL  https://raw.githubusercontent.com/LuceusXylian/proxer-responsive/main/proxer-responsive.js
 // @description  Force proxer.me to be responsive
